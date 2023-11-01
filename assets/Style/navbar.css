@@ -1,0 +1,81 @@
+.backNav {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+  background-color: rgb(53, 53, 53);
+  border-bottom: 1px solid rgb(105, 104, 104);
+}
+
+.iconsSocialMedia {
+  margin: 8px 48px;
+  padding-right: 16px;
+  color: rgb(105, 104, 104);
+  border-right: 1px solid rgb(105, 104, 104);
+}
+
+.contactInfos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 8px 48px;
+  gap: 4px;
+}
+
+.contactInfos i {
+  color: #F2BB16;
+  border-left: 1px solid rgb(105, 104, 104);
+  padding-left: 16px;
+}
+
+.contactInfos p {
+  color: rgb(105, 104, 104);
+  padding-right: 16px;
+}
+
+.logoArea {
+  background-color: rgb(53, 53, 53);
+  height: 22vh;
+}
+
+.logoArea img {
+  margin-left: 90px;
+  margin-top: 18px;
+  width: 150px;
+}
+
+.navbar {
+  position: fixed;
+  top: 115px;
+  padding: 30px;
+  left: 0;
+  right: 0;
+  margin: auto;
+  background-color: aliceblue;
+  border-radius: 5px;
+  width: 80vw;
+  z-index: 10;
+}
+
+.navbar ul {
+  align-items: center;
+}
+
+ul.links-container {
+  display: flex;
+  justify-content: center;
+  gap: 48px;
+}
+
+.navbar li.active  {
+  border-bottom: 2px solid #F2BB16;
+}
+
+.links-container a {
+  text-decoration: none;
+  font-family: 'Roboto', sans-serif;
+  color: rgb(53, 53, 53);
+}
+
+.logo-navbar {
+  width: 150PX;
+}
