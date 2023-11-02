@@ -1,35 +1,72 @@
 .banner {
-    margin-top: -10px;
-    height: 600px;
+    width: 100%;
+    margin-top: -40px;
+    height: 400px;
 }
 
 .homeContainer {
     position: relative;
 }
 
-.boxVideo {
+.containerVideo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     position: relative;
+    margin: 36px auto;
+    width: 95%;
 }
 
-.boxVideo figure {
+.aboutVideo {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.textTitleVideo {
+    color: #F2BB16;
+    margin-bottom: 18px;
+}
+
+.aboutVideo h2 {
+    font-size: 32px;
+    font-weight: 500;
+    margin-bottom: 24px;
+}
+
+.descriptionVIdeo {
+    line-height: 22px;
+    width: 500px;
+}
+
+.cardVideo figure {
+    position: relative;
+    display: inline-block;
     margin: 0;
 }
 
-.boxVideo i {
+.cardVideo img {
+    display: block;
+    width: 300px;
+    height: 370px;
+    margin-right: 100px;
+    border-radius: 5px;
+    object-fit: cover;
+    box-shadow: 8px 8px 10px rgba(0, 0, 0, 0.404);
+}
+
+#videoLink {
     position: absolute;
-    top: 40%;
-    left: 15%;
+    top: 50%;
+    left: 36%;
     transform: translate(-50%, -50%);
+    text-decoration: none;
+}
+
+.bx-play-circle {
     font-size: 100px;
     color: #F2BB16;
     cursor: pointer;
-}
-
-.boxVideo img {
-    margin: 48px 48px;
-    height: 80vh;
-    width: 30vw;
-    box-shadow: 8px 8px 10px rgba(0, 0, 0, 0.404);
 }
 
 .modal {
@@ -62,4 +99,26 @@
     font-size: 40px;
     font-weight: bold;
     cursor: pointer;
+}
+
+.aboutVideo {
+    display: flex;
+}
+
+.aboutVideo ul {
+    margin-top: 24px;
+    display: flex;
+    justify-content: left;
+    gap: 24px;
+    width: 500px;
+    flex-wrap: wrap;
+}
+
+.aboutVideo li {
+    font-weight: 500;
+}
+
+.bx-check {
+    color: #F2BB16;
+    padding-right: 8px;
 }
