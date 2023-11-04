@@ -162,10 +162,13 @@
         left: 50%;
     }
 
+    .aboutVideo {
+        width: 100vw;
+    }
+
     .aboutVideo ul {
         flex-direction: column;
         width: 90vw;
-        margin-right: 150px;
         
     }
 
