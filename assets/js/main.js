@@ -12,6 +12,18 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 });
 
+// Menu mobile
+const menuIcon = document.querySelector(".menu-icon");
+const mobileMenu = document.querySelector(".mobile-menu");
+
+menuIcon.addEventListener("click", () => {
+  if (mobileMenu.style.display === "block") {
+    mobileMenu.style.display = "none";
+  } else {
+    mobileMenu.style.display = "block";
+  }
+});
+
 // Open Video
 document
   .getElementById("videoLink")
@@ -19,7 +31,7 @@ document
     event.preventDefault();
     let modal = document.getElementById("videoModal");
     let iframe = document.getElementById("videoIframe");
-    iframe.src = "https://www.youtube.com/embed/0WusMvoFnaQ?autoplay=1";
+    iframe.src = "https://www.youtube.com/embed/PNbHHmxJ95k?autoplay=1";
     modal.style.display = "block";
   });
 

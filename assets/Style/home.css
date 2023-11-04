@@ -52,7 +52,6 @@
     margin-right: 100px;
     border-radius: 5px;
     object-fit: cover;
-    box-shadow: 8px 8px 10px rgba(0, 0, 0, 0.404);
 }
 
 #videoLink {
@@ -121,4 +120,62 @@
 .bx-check {
     color: #F2BB16;
     padding-right: 8px;
+}
+
+@media (max-width: 768px) {
+    .containerVideo {
+        flex-direction: column;
+    }
+
+    .descriptionVIdeo {
+        max-width: 90vw;
+    }
+
+    .textTitleVideo {
+        margin: 36px auto 0;
+        text-align: left;
+        width: 95vw;
+        font-weight: 500;
+    }
+
+    .aboutVideo h2 {
+        margin: 24px auto;
+        text-align: left;
+        width: 95vw;
+        font-size: 32px;
+    }
+
+    .descriptionVIdeo {
+        margin: 18px auto;
+        text-align: left;
+        width: 95vw;
+        font-size: 18px;
+    }
+
+    .cardVideo img {
+        width: 350px;
+        height: 450px;
+        margin: 0 auto;
+    }
+
+    #videoLink {
+        left: 50%;
+    }
+
+    .aboutVideo ul {
+        flex-direction: column;
+        width: 90vw;
+        margin-right: 150px;
+        
+    }
+
+    .aboutVideo li {
+        margin: 0 auto;
+    }
+
+    .banner {
+        object-fit: cover;
+    }
+
+
 }

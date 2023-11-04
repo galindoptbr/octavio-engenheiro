@@ -7,11 +7,28 @@
   border-bottom: 1px solid rgb(105, 104, 104);
 }
 
-.iconsSocialMedia {
-  margin: 8px 48px;
-  padding-right: 16px;
+.slogan {
   color: rgb(105, 104, 104);
-  border-right: 1px solid rgb(105, 104, 104);
+  font-style: italic;
+  margin-top: 12px;
+}
+
+.iconsSocialMedia {
+  display: flex;
+
+}
+
+.iconsSocialMedia hr {
+  border-color: rgb(105, 104, 104);
+  border-width: .5px;
+  border-style: groove;
+  margin-left: 16px;
+}
+
+.iconsSocialMedia a {
+  margin: 8px 0 0 16px;
+  color: rgb(105, 104, 104);
+  cursor: pointer;
 }
 
 .contactInfos {
@@ -43,6 +60,38 @@
   margin-left: 90px;
   margin-top: 18px;
   width: 150px;
+}
+
+.mobile-menu {
+  display: none;
+  background-color: #333;
+  position: absolute;
+  top: 80px;
+  right: 0;
+  width: 100vw;
+  padding: 10px;
+  z-index: 100;
+}
+
+.mobile-menu ul {
+  list-style: none;
+  padding: 0;
+}
+
+.mobile-menu li {
+  margin-bottom: 20px;
+  margin-right: 10px;
+  text-align: right;
+}
+
+.mobile-menu a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.menu-icon {
+  display: none;
+  cursor: pointer;
 }
 
 nav {
@@ -82,7 +131,7 @@ ul.links-container {
   gap: 48px;
 }
 
-.navbar li.active  {
+.navbar li.active {
   border-bottom: 2px solid #F2BB16;
 }
 
@@ -106,4 +155,33 @@ ul.links-container {
 
 .logo-navbar {
   width: 150PX;
+}
+
+@media (max-width: 768px) {
+  .backNav {
+    display: none;
+  }
+
+  .logoArea img {
+    margin-left: 20px;
+    margin-top: 40px;
+  }
+
+  nav {
+    display: none;
+  }
+
+  .menu-icon {
+    position: absolute;
+    top: 30px;
+    right: 10px;
+    font-size: 50px;
+    display: block;
+    color: #fff;
+  }
+
+
+
+
+
 }
