@@ -4,6 +4,11 @@
     height: 400px;
 }
 
+.home {
+    background-color: #f8f8f8;
+    padding: 24px;
+}
+
 .homeContainer {
     position: relative;
 }
@@ -12,9 +17,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    position: relative;
-    margin: 36px auto;
-    width: 95%;
 }
 
 .aboutVideo {
@@ -102,6 +104,7 @@
 
 .aboutVideo {
     display: flex;
+    justify-content: center;
 }
 
 .aboutVideo ul {
@@ -127,29 +130,24 @@
         flex-direction: column;
     }
 
-    .descriptionVIdeo {
-        max-width: 90vw;
-    }
-
-    .textTitleVideo {
-        margin: 36px auto 0;
+    p.textTitleVideo {
         text-align: left;
-        width: 95vw;
         font-weight: 500;
     }
 
+    .aboutVideo {
+        margin-top: 24px;
+    }
+
     .aboutVideo h2 {
-        margin: 24px auto;
         text-align: left;
-        width: 95vw;
         font-size: 32px;
     }
 
     .descriptionVIdeo {
         margin: 18px auto;
         text-align: left;
-        width: 95vw;
-        font-size: 18px;
+        width: 90vw;
     }
 
     .cardVideo img {
@@ -162,18 +160,13 @@
         left: 50%;
     }
 
-    .aboutVideo {
-        width: 100vw;
-    }
-
     .aboutVideo ul {
-        flex-direction: column;
-        width: 90vw;
-        
+        width: 250px;
     }
 
     .aboutVideo li {
-        margin: 0 auto;
+        flex-direction: column;
+        width: 80vw;
     }
 
     .banner {

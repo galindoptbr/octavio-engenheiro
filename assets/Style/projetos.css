@@ -1,0 +1,86 @@
+.projetos {
+    background-color: #f8f8f8;
+    padding: 24px;
+}
+
+.headerProjetos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.subtitleProjetos {
+    color: #F2BB16;
+    margin-bottom: 18px;
+}
+
+.headerProjetos h3 {
+    font-size: 32px;
+    font-weight: 500;
+    margin-bottom: 24px;
+    text-align: center;
+    max-width: 900px;
+}
+
+.cardsProjects {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+
+.boxCardsProjects {
+    background-image: url(../images/3d-project-1.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 250px;
+    height: 300px;
+    border-radius: 5px;
+    margin-top: 3em;
+}
+
+.contentCardsProjects {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.contentCardsProjects p {
+    font-size: 24px;
+    font-weight: 600;
+    color: aliceblue;
+    margin-top: 30%;
+    margin-bottom: 10%;
+    width: 60%;
+}
+
+.contentCardsProjects hr {
+    width: 200px;
+    border-style: groove;
+    margin-left: 50px;
+}
+
+.linkProjects {
+    text-decoration: none;
+    color: aliceblue;
+    margin-top: 50px;
+    margin-right: 36px;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+@media (max-width: 768px) {
+
+    .cardsProjects {
+        flex-direction: column;
+        gap: 0;
+    }
+
+    .headerProjetos h3 {
+        text-align: left;
+    }
+
+}
