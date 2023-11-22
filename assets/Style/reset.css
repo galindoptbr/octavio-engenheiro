@@ -134,6 +134,7 @@ table {
 html {
   font-family: 'Roboto', sans-serif;
   scroll-behavior: smooth;
+  background-color: #f8f8f8;
 }
 
 .whatsappButon img {
@@ -141,4 +142,27 @@ html {
   bottom: 50px;
   right: 10px;
   width: 50px;
+}
+
+/* Estilos para a barra de rolagem no WebKit */
+/* Barra de rolagem */
+::-webkit-scrollbar {
+  width: 10px; /* Largura da barra de rolagem vertical */
+  height: 10px; /* Altura da barra de rolagem horizontal */
+}
+
+/* Track (trilha da barra de rolagem) */
+::-webkit-scrollbar-track {
+  background: #f8f8f8; /* Cor de fundo da trilha */
+}
+
+/* Thumb (alça da barra de rolagem) */
+::-webkit-scrollbar-thumb {
+  background: #888; /* Cor da alça da barra de rolagem */
+  border-radius: 5px; /* Arredondamento da alça da barra de rolagem */
+}
+
+/* Hover na alça da barra de rolagem */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; /* Cor da alça quando o cursor está em cima */
 }

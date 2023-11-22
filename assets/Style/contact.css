@@ -1,0 +1,90 @@
+.containerContact {
+    display: flex;
+    justify-content: center;
+    width: 900px;
+    height: 600px;
+    background-color: rgb(53, 53, 53);
+    margin: 2em auto;
+    border-radius: 10px;
+}
+
+.mainContact {
+    padding: 2em;
+    width: 50%;
+}
+
+.mainContact form {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+}
+
+.mainContact input,
+.mainContact textarea {
+    background-color: rgb(53, 53, 53);
+    border: none;
+    color: #f8f8f8;
+    font-size: 16px;
+    font-weight: 600;
+    border-bottom: 1px solid rgb(105, 104, 104);
+    padding: 5px;
+    margin-top: 20px;
+    resize: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+.mainContact input:focus,
+.mainContact textarea:focus {
+    outline: none;
+}
+
+.infosContactUs {
+    background-image: url("../images/capa-video.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    width: 50%;
+    background-color: #f8f8f8;
+    padding: 2em;
+    text-align: center;
+}
+
+.infosContactUs h3 {
+    color: #f8f8f8;
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 2em;
+}
+
+.btn {
+    padding: 10px;
+    margin-top: 30px;
+    background-color: #F2BB16;
+    border: none;
+    border-radius: 5px;
+    width: 100px;
+    color: rgb(53, 53, 53);
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.iconsContact {
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+}
+
+.iconsContact p {
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+    color: #f8f8f8;
+    transition: .5s;
+    line-height: 40px;
+}
+
+.iconsContact i {
+    color: #F2BB16;
+    vertical-align: middle;
+}
