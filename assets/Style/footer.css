@@ -1,0 +1,96 @@
+footer {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(53, 53, 53);
+    height: 300px;
+}
+
+img.logoFooter {
+    width: 150px;
+}
+
+.mainFooter {
+    display: flex;
+    align-items: flex-start;
+    gap: 16px;
+    flex-direction: column;
+    width: 250px;
+    padding-top: 2em;
+}
+
+.mainFooter p {
+    color: #ffff;
+    line-height: 25px;
+}
+
+.iconsSocialMediaFooter a {
+    color: rgb(105, 104, 104);
+    margin-left: 20px;
+
+}
+
+.iconsSocialMediaFooter a:first-child {
+    margin-left: 0;
+}
+
+.menuFooter {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2em;
+    margin-left: 100px;
+}
+
+.menuFooter h3 {
+    font-size: 2em;
+    margin-bottom: 16px;
+    font-weight: 700;
+    color: #ffff;
+}
+
+.linksContainerFooter a {
+    text-decoration: none;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(105, 104, 104);
+    transition: .5s;
+    line-height: 30px;
+}
+
+.linksContainerFooter a:hover {
+    color: #ffff;
+}
+
+.contatosFooter {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2em;
+    margin-left: 100px;
+}
+
+.contatosFooter h3 {
+    font-size: 2em;
+    margin-bottom: 16px;
+    font-weight: 700;
+    color: #ffff;
+}
+
+.iconsFooter {
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+
+}
+
+.iconsFooter p {
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(105, 104, 104);
+    transition: .5s;
+    line-height: 40px;
+
+}
+
+.iconsFooter i {
+    color: #F2BB16;
+    vertical-align: middle;
+}
