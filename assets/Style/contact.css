@@ -88,3 +88,18 @@
     color: #F2BB16;
     vertical-align: middle;
 }
+
+@media (max-width: 768px) {
+    .infosContactUs {
+        display: none;
+    }
+
+    .containerContact {
+        width: 95vw; 
+        height: 500px;
+    }
+
+    .mainContact {
+        width: 90%;
+    }
+}

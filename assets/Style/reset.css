@@ -144,25 +144,20 @@ html {
   width: 50px;
 }
 
-/* Estilos para a barra de rolagem no WebKit */
-/* Barra de rolagem */
 ::-webkit-scrollbar {
-  width: 10px; /* Largura da barra de rolagem vertical */
-  height: 10px; /* Altura da barra de rolagem horizontal */
+  width: 10px;
+  height: 10px;
 }
 
-/* Track (trilha da barra de rolagem) */
 ::-webkit-scrollbar-track {
-  background: #f8f8f8; /* Cor de fundo da trilha */
+  background: #f8f8f8;
 }
 
-/* Thumb (alça da barra de rolagem) */
 ::-webkit-scrollbar-thumb {
-  background: #888; /* Cor da alça da barra de rolagem */
-  border-radius: 5px; /* Arredondamento da alça da barra de rolagem */
+  background: #888;
+  border-radius: 5px;
 }
 
-/* Hover na alça da barra de rolagem */
 ::-webkit-scrollbar-thumb:hover {
-  background: #555; /* Cor da alça quando o cursor está em cima */
+  background: #555;
 }

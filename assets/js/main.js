@@ -24,33 +24,6 @@ menuIcon.addEventListener("click", () => {
   }
 });
 
-// Open Video
-document
-  .getElementById("videoLink")
-  .addEventListener("click", function (event) {
-    event.preventDefault();
-    let modal = document.getElementById("videoModal");
-    let iframe = document.getElementById("videoIframe");
-    iframe.src = "https://www.youtube.com/embed/PNbHHmxJ95k?autoplay=1";
-    modal.style.display = "block";
-  });
-
-document.getElementsByClassName("close")[0].onclick = function () {
-  let modal = document.getElementById("videoModal");
-  let iframe = document.getElementById("videoIframe");
-  iframe.src = "";
-  modal.style.display = "none";
-};
-
-window.onclick = function (event) {
-  let modal = document.getElementById("videoModal");
-  if (event.target == modal) {
-    let iframe = document.getElementById("videoIframe");
-    iframe.src = "";
-    modal.style.display = "none";
-  }
-};
-
 // Transition Navbar
 window.addEventListener("scroll", function () {
   const nav = document.querySelector("nav");

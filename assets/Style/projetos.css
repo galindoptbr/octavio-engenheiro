@@ -1,4 +1,5 @@
 .projects {
+    margin-top: 4em;
     padding: 24px;
 }
 
@@ -29,8 +30,41 @@
     gap: 24px;
 }
 
-.boxCardsProjects {
-    background-image: url(../images/3d-project-1.png);
+.projetoHagamenon {
+    background-image: url(../images/projeto-hagamenon.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 250px;
+    height: 300px;
+    border-radius: 5px;
+    margin-top: 3em;
+}
+
+.projetoMariahEDavi {
+    background-image: url(../images/projeto-mariah-e-davi.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 250px;
+    height: 300px;
+    border-radius: 5px;
+    margin-top: 3em;
+}
+
+.projetoHomeOffice {
+    background-image: url(../images/projeto-home-office.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 250px;
+    height: 300px;
+    border-radius: 5px;
+    margin-top: 3em;
+}
+
+.projetoRev {
+    background-image: url(../images/projeto-rev.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
